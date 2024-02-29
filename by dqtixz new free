@@ -10,20 +10,13 @@ local window = PabloLib:Create(
 
 local tab1 = window:CreateTab("Script")
 
-tab1:CreateButton("The Script as update", function()
-print(value)
-end)
+tab1:CreateWarning("Warning")
+tab1:CreateWarning("Script Update Goto")
+tab1:CreateWarning("https://scriptblox.com/?mode=free")
+tab1:CreateWarning("To New version 20:00 update")
 
-tab1:CreateButton("goto new version, function()
-print(value)
-end)
 
 -- loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Zombie-attack-script-portuguese/main/by%20dqtixz%20free"))();
-
-tab1:CreateButton("https://scriptblox.com/?mode=free", function()
-print(value)
-end)
-
 -- loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/Zombie-Attack/main/Script%20made%20by%20dqtixz%20Free"))();
 
 tab1:CreateButton("Close / Fechar", function()
